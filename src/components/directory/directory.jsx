@@ -26,7 +26,7 @@ class Directory extends React.Component {
           linkUrl: "shop/sneakers",
         },
         {
-          title: "Science Fiction",
+          title: "Science",
           imageUrl: "https://i.ibb.co/XkCsHJR/01-1.jpg",
           size: "large",
           id: 4,
