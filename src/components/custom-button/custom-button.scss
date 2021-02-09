@@ -21,10 +21,16 @@
   }
   &.google-sign-in {
     background-color: #4285f4;
-    color: white;
+    color: #fff;
+
+    font-size: 1.1em;
+    font-family: "Poppins", sans-serif;
+    // color: white;
     &:hover {
-      background-color: #357ae8;
-      border: none;
+      background-color: #ccc;
+      color: #4285f4;
+      font-size: 1.1em;
+      font-family: "Poppins", sans-serif;
     }
   }
 }

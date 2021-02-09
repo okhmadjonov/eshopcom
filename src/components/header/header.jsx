@@ -7,7 +7,7 @@ const Header = ({ currentUser }) => {
   return (
     <div className="header">
       <Link className="logo-container" to="/" style={{ color: "#926" }}>
-        e.BOOK
+        e.SHOP
       </Link>
       <div className="options">
         <Link className="option" to="/shop">
@@ -29,9 +29,14 @@ const Header = ({ currentUser }) => {
         <Link
           className="option"
           to="/bag"
-          style={{ color: "#926", opacity: "0.8", fontWeight: "100" }}
+          style={{
+            fontSize: "1.2em",
+            color: "#acadac",
+            opacity: "0.8",
+            fontWeight: "350",
+          }}
         >
-          <i className="fa fa-shopping-basket"></i>
+          <i className="fa fa-shopping-cart"></i>
         </Link>
       </div>
     </div>
