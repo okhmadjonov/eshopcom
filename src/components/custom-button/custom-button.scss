@@ -6,9 +6,8 @@
   line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 16px;
-  background-color: #926;
+  background-color: #039185;
   color: white;
-
   font-family: "Poppins", sans-serif;
   font-weight: bold;
   border: none;
@@ -16,21 +15,22 @@
   cursor: pointer;
 
   &:hover {
-    background-color: rgb(109, 9, 67);
-    color: #fff;
+    background-color: #fff;
+    color: #039185;
+    border: 1px solid #039185;
   }
   &.google-sign-in {
     background-color: #4285f4;
     color: #fff;
-
     font-size: 1.1em;
     font-family: "Poppins", sans-serif;
-    // color: white;
+
     &:hover {
-      background-color: #ccc;
+      background-color: #fff;
       color: #4285f4;
       font-size: 1.1em;
       font-family: "Poppins", sans-serif;
+      border: 1px solid #4285f4;
     }
   }
 }
