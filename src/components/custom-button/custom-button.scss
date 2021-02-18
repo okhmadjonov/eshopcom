@@ -13,6 +13,8 @@
   border: none;
   outline: none !important;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
 
   &:hover {
     background-color: #fff;
@@ -31,6 +33,16 @@
       font-size: 1.1em;
       font-family: "Poppins", sans-serif;
       border: 1px solid #4285f4;
+    }
+  }
+  &.inverted {
+    background-color: #fff;
+    color: #e61f5b;
+    border: 1px solid #e61f5b;
+    &:hover {
+      background-color: #e61f5b;
+      color: white;
+      border: none;
     }
   }
 }
