@@ -4,24 +4,14 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
-  background-color: #039185;
-
-  .container {
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
-    color: #fff;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+  background-color: #fff;
+  border: 1px solid #e61f5b;
+  padding: 0 50px;
 
   .logo-container {
     height: 100%;
     width: 200px;
-    padding: 25px;
-    text-transform: uppercase;
-   
+    padding: 20px;
   }
 
   .options {

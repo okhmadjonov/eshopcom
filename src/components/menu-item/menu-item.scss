@@ -1,14 +1,14 @@
 .menu-item {
   min-width: 30%;
-  height: 240px;
+  height: 250px;
   flex: 1 1 1 auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #039185;
+  border: 1px solid #e61f5b;
   margin: 0 7.5px 15px;
   overflow: hidden;
-  border-radius: 5px;
+  
 
   &.large {
     height: 380px;
@@ -47,11 +47,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 1px solid #039185;
+    border: 1px solid #e61f5b;
     background-color: #fff;
     opacity: 0.7;
     position: absolute;
-    border-radius: 5px;
+    
 
     .title {
       font-weight: bold;
