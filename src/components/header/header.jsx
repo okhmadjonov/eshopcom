@@ -18,7 +18,7 @@ const Header = ({ currentUser, hidden }) => {
             fontFamily: "'Reggae One', cursive",
           }}
         >
-          Clothe House
+          Clothes House
         </i>
       </Link>
       <div className="options">
