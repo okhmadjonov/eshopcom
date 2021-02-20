@@ -13,16 +13,16 @@ const Header = ({ currentUser, hidden }) => {
   return (
     <div className="header">
       <Link className="logo-container" to="/">
-        <i
+        <span
           style={{
             fontSize: "1.2em",
             fontWeight: "600",
             color: "#e61f5b",
-            fontFamily: "'Reggae One', cursive",
+            fontFamily: "Poppins sans-serif",
           }}
         >
           Clothes House
-        </i>
+        </span>
       </Link>
       <div className="options">
         <Link className="option" to="/shop">
